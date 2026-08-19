@@ -28,9 +28,11 @@ input{
 .result{
     background-color: white;
     height:100px;
-    width:100px;
-    border-radius: 20px;;
-    display: inline-flex;
-    flex-wrap: wrap;
+    width: 400px;
+    border-radius: 20px;
     margin:5px;
+    text-align: center;
+    display: grid;
+    align-content: center;
+    font-size: large;
 }
