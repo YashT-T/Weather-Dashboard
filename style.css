@@ -1,0 +1,36 @@
+*{
+    background-color: rgb(238, 235, 235);
+}
+input{
+    height:25px;
+    width:25%;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+.sub{
+    background-color: rgb(0, 132, 255);
+    border-radius: 25px;
+    height: 28px;
+    border: 1px solid grey;
+    text-align: center;
+    color: white;
+    font-family:cursive;
+}
+.sub:hover{
+    transform:scale(1.02);
+    box-shadow: 1px 1px rgb(139, 129, 129);
+    transition: 150ms;
+}
+.sub:active{
+    box-shadow: none;
+}
+.result{
+    background-color: white;
+    height:100px;
+    width:100px;
+    border-radius: 20px;;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin:5px;
+}
